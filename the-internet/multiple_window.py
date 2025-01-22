@@ -46,3 +46,4 @@ def test_multiple_window_dienmayxanh(browser : webdriver.Chrome):
         print(f"cửa sổ {window_id}, có title: {driver.title}, có URL: {driver.current_url}")
 
     time.sleep(2)
+    
